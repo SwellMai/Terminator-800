@@ -1,0 +1,4 @@
+<launch>
+  <node type="stageros" name="stage_sim" pkg="stage_ros" args="-d $(find ros_pa2)/world/playground.world" />
+  <node pkg="ros_pa2" type="pa2_main.py" name="pa2_main" output="screen"/>
+</launch>

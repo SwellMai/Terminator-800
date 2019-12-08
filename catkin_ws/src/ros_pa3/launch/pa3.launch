@@ -1,0 +1,4 @@
+<launch>
+  <node type="rviz" name="rviz" pkg="rviz"/>
+  <node type="pa3.py" name="test" pkg="ros_pa3" output="screen" cwd="node"/>
+</launch>
